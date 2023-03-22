@@ -1,0 +1,23 @@
+{
+  "name": "read-my-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BanditHeelerPDX/read-my-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BanditHeelerPDX/read-my-node/issues"
+  },
+  "homepage": "https://github.com/BanditHeelerPDX/read-my-node#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
