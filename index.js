@@ -5,14 +5,17 @@ const licenses = [
     {
         name: "MIT License",
         url: "https://opensource.org/licenses/MIT",
+        badge: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
       },
       {
         name: "Apache License 2.0",
         url: "https://opensource.org/licenses/Apache-2.0",
+        badge: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
       },
       {
         name: "GNU General Public License v3.0",
         url: "https://www.gnu.org/licenses/gpl-3.0",
+        badge: "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
       },
 ];
 
@@ -85,9 +88,13 @@ inquirer
     ])
     .then((answers) => {
         const { projectName, description, installation, usage, license, howToContribute, contributing, testing, questions, userName, email } = answers;
+
+        const licenseBadge = `![${license} License](https://img.shields.io/badge/license-${license.replace(/ /g, "%20")}-blue.svg)`;
       
         const markdownString = `
-# ${projectName}
+# ${projectName.toUpperCase()}
+
+${licenseBadge}
       
 ## Description
       
@@ -120,6 +127,7 @@ This project is licensed under the ${license} license. See the [LICENSE](${licen
 The following individuals and/or organizations have contributed to the viability of this application:
 ${contributing}
 
+If you would like to contribute to the viability or sustainability of this application, read the following:
 ${howToContribute}
       
 ## Tests
@@ -135,7 +143,7 @@ ${questions}
 If you have any questions about the repo, open an issue or contact ${userName} directly at ${email}.
       `;
       
-        fs.writeFileSync('README.md', markdownString, (err) => {
+        fs.writeFileSync('README.md', markdownString, { flag: 'w' }, (err) => {
           if (err) {
             console.error(err);
           } else {
