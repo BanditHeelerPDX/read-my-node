@@ -95,12 +95,12 @@ inquirer
       
       ## Table of Contents
       
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [License](#license)
-      - [Contributing](#contributing)
-      - [Tests](#tests)
-      - [Questions](#questions)
+      - [Installation]()
+      - [Usage]()
+      - [License]()
+      - [Contributing]()
+      - [Tests]()
+      - [Questions]()
       
       ## Installation
       
@@ -116,6 +116,9 @@ inquirer
       
       ## Contributing
       
+      The following individuals and/or organizations have contributed to the viability of this application:
+      ${contributing}
+
       ${howToContribute}
       
       ## Tests
