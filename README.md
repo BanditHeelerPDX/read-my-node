@@ -9,7 +9,7 @@
 lhkj
 =======
 A cli prompt created in node.js that takes user input to create a quality readme file for a github repository.  It should look like [this](https://github.com/banditheelerpdx/read-my-node/Screenshot.png) when you begin.
->>>>>>> d04434f777f6197cd13158d20628b7948cdab137
+
       
 ## Table of Contents
       
