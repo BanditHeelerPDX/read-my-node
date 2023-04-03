@@ -1,48 +1,48 @@
 
-      # greasew
+      # Read my Node
       
       ## Description
       
-      lkja;lsdglasdg;;l
+      readme generator
       
       ## Table of Contents
       
-      - <a href="#installation">Installation</a>
-      - [Usage](#usage)
-      - [License](#license)
-      - [Contributing](#contributing)
-      - [Tests](#tests)
-      - [Questions](#questions)
-      - [Contacts]
+      - [Installation](https://github.com/banditheelerpdx/read-my-node#installation)
+      - [Usage](https://github.com/banditheelerpdx/read-my-node#usage)
+      - [License](https://github.com/banditheelerpdx/read-my-node#license)
+      - [Contributing](https://github.com/banditheelerpdx/read-my-node#contributing)
+      - [Tests](https://github.com/banditheelerpdx/read-my-node#tests)
+      - [Questions](https://github.com/banditheelerpdx/read-my-node#questions)
+      - [Contact](https://github.com/banditheelerpdx/read-my-node#contact)
       
-      ## <span id="installation">Installation</span>
+      ## Installation
       
-      lkhasgdlhadsgklhj
+      npm insta then node index
       
-      ## <span id="usage">Usage</span>
+      ## Usage
       
-      as;ldhkjads;lgjhasdg
+      creating readme files 
       
-      ## <span id="license">License</span>
+      ## License
       
       This project is licensed under the MIT License license. See the [LICENSE](https://opensource.org/licenses/MIT) file for details.
       
-      ## <span id="contributing">Contributing</span>
+      ## Contributing
       
       The following individuals and/or organizations have contributed to the viability of this application:
-      jaaoijasdhfasdg 
+      my mother
 
-      ljkasdghbv;lajh
+      just ask
       
-      ## <span id="tests">Tests</span>
+      ## Tests
       
-      ;lkadsgha;lsdkhjsldkgjha;lshfsdalkjh
       
-      ## <Questions
       
-      a;sldhkjsagd
+      ## Questions
+      
+      
       
       ## Contact
       
-      If you have any questions about the repo, open an issue or contact ;lhhudooed directly at greg@greg.com.
+      If you have any questions about the repo, open an issue or contact  directly at dan@dan.com.
       

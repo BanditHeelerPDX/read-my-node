@@ -95,12 +95,13 @@ inquirer
       
       ## Table of Contents
       
-      - [Installation]()
-      - [Usage]()
-      - [License]()
-      - [Contributing]()
-      - [Tests]()
-      - [Questions]()
+      - [Installation](https://github.com/banditheelerpdx/read-my-node#installation)
+      - [Usage](https://github.com/banditheelerpdx/read-my-node#usage)
+      - [License](https://github.com/banditheelerpdx/read-my-node#license)
+      - [Contributing](https://github.com/banditheelerpdx/read-my-node#contributing)
+      - [Tests](https://github.com/banditheelerpdx/read-my-node#tests)
+      - [Questions](https://github.com/banditheelerpdx/read-my-node#questions)
+      - [Contact](https://github.com/banditheelerpdx/read-my-node#contact)
       
       ## Installation
       
