@@ -87,52 +87,52 @@ inquirer
         const { projectName, description, installation, usage, license, howToContribute, contributing, testing, questions, userName, email } = answers;
       
         const markdownString = `
-      # ${projectName}
+# ${projectName}
       
-      ## Description
+## Description
       
-      ${description}
+${description}
       
-      ## Table of Contents
+## Table of Contents
       
-      - [Installation](https://github.com/banditheelerpdx/read-my-node#installation)
-      - [Usage](https://github.com/banditheelerpdx/read-my-node#usage)
-      - [License](https://github.com/banditheelerpdx/read-my-node#license)
-      - [Contributing](https://github.com/banditheelerpdx/read-my-node#contributing)
-      - [Tests](https://github.com/banditheelerpdx/read-my-node#tests)
-      - [Questions](https://github.com/banditheelerpdx/read-my-node#questions)
-      - [Contact](https://github.com/banditheelerpdx/read-my-node#contact)
-      
-      ## Installation
-      
-      ${installation}
-      
-      ## Usage
-      
-      ${usage}
-      
-      ## License
-      
-      This project is licensed under the ${license} license. See the [LICENSE](${licenses.find(l => l.name === license).url}) file for details.
-      
-      ## Contributing
-      
-      The following individuals and/or organizations have contributed to the viability of this application:
-      ${contributing}
+- [Installation](https://github.com/banditheelerpdx/read-my-node#installation)
+- [Usage](https://github.com/banditheelerpdx/read-my-node#usage)
+- [License](https://github.com/banditheelerpdx/read-my-node#license)
+- [Contributing](https://github.com/banditheelerpdx/read-my-node#contributing)
+- [Tests](https://github.com/banditheelerpdx/read-my-node#tests)
+- [Questions](https://github.com/banditheelerpdx/read-my-node#questions)
+- [Contact](https://github.com/banditheelerpdx/read-my-node#contact)
 
-      ${howToContribute}
+## Installation
       
-      ## Tests
+${installation}
       
-      ${testing}
+## Usage
       
-      ## Questions
+${usage}
       
-      ${questions}
+## License
       
-      ## Contact
+This project is licensed under the ${license} license. See the [LICENSE](${licenses.find(l => l.name === license).url}) file for details.
       
-      If you have any questions about the repo, open an issue or contact ${userName} directly at ${email}.
+## Contributing
+      
+The following individuals and/or organizations have contributed to the viability of this application:
+${contributing}
+
+${howToContribute}
+      
+## Tests
+      
+${testing}
+      
+## Questions
+      
+${questions}
+      
+## Contact
+      
+If you have any questions about the repo, open an issue or contact ${userName} directly at ${email}.
       `;
       
         fs.writeFileSync('README.md', markdownString, (err) => {
