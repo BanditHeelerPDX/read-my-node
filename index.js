@@ -64,7 +64,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Should the masses seek an audience with you to discuss your application, what and how are your preferred means of communicaiton?',
+            message: 'Should the masses seek an audience with you to discuss your application, what and how are your preferred means of communication?',
             name: 'questions'
         },
         {
