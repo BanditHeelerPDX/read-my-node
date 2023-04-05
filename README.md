@@ -5,11 +5,7 @@
       
 ## Description
       
-<<<<<<< HEAD
-lhkj
-=======
 A cli prompt created in node.js that takes user input to create a quality readme file for a github repository.  It should look like [this](https://github.com/banditheelerpdx/read-my-node/Screenshot.png) when you begin.
-
       
 ## Table of Contents
       
@@ -23,11 +19,11 @@ A cli prompt created in node.js that takes user input to create a quality readme
 
 ## Installation
       
-la;'ksdj
+From the terminal, in the appropriate folder, type npm install and hit enter.  Then type node index and hit enter.  Follow the prompts to create your readme.
       
 ## Usage
       
-l'kadsjg
+For people of all creeds and colors to discover extra time to code by not wasting it with the semantics of readme file setup.
       
 ## License
       
@@ -36,29 +32,20 @@ This project is licensed under the MIT License license. See the [LICENSE](https:
 ## Contributing
       
 The following individuals and/or organizations have contributed to the viability of this application:
-
-'lalskgdasgd
-=======
-My mom - and Chat-GPT helped me write the regex used to validate email addresses.
-
+My mother and Chat-GPT helped write the regex for validating emails.
 
 If you would like to contribute to the viability or sustainability of this application, read the following:
-
+Open an issue or drop me a line.
       
 ## Tests
       
-afs
+You could test with Jest or you could test with something else.
       
 ## Questions
       
-
+Email or snail mail
       
 ## Contact
       
-
-If you have any questions about the repo, open an issue or contact  directly at git@no.com.
-      
-=======
 If you have any questions about the repo, open an issue or contact banditheelerpdx directly at kirk.alexander.steele@gmail.com.
       
-
