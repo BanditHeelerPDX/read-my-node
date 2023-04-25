@@ -74,6 +74,11 @@ inquirer
         },
         {
             type: 'input',
+            message: 'What is the exact name of your github repository?',
+            name: 'repoName'
+        },
+        {
+            type: 'input',
             message: 'What is your email address?',
             name: 'email',
             validate: function(input) {
@@ -87,7 +92,7 @@ inquirer
         },
     ])
     .then((answers) => {
-        const { projectName, description, installation, usage, license, howToContribute, contributing, testing, questions, userName, email } = answers;
+        const { projectName, description, installation, usage, license, howToContribute, contributing, testing, questions, userName, repoName, email } = answers;
 
         const licenseBadge = `![${license} License](https://img.shields.io/badge/license-${license.replace(/ /g, "%20")}-blue.svg)`;
       
@@ -102,13 +107,13 @@ ${description}
       
 ## Table of Contents
       
-- [Installation](https://github.com/banditheelerpdx/read-my-node#installation)
-- [Usage](https://github.com/banditheelerpdx/read-my-node#usage)
-- [License](https://github.com/banditheelerpdx/read-my-node#license)
-- [Contributing](https://github.com/banditheelerpdx/read-my-node#contributing)
-- [Tests](https://github.com/banditheelerpdx/read-my-node#tests)
-- [Questions](https://github.com/banditheelerpdx/read-my-node#questions)
-- [Contact](https://github.com/banditheelerpdx/read-my-node#contact)
+- [Installation](https://github.com/banditheelerpdx/${repoName}#installation)
+- [Usage](https://github.com/banditheelerpdx/${repoName}#usage)
+- [License](https://github.com/banditheelerpdx/${repoName}#license)
+- [Contributing](https://github.com/banditheelerpdx/${repoName}#contributing)
+- [Tests](https://github.com/banditheelerpdx/${repoName}#tests)
+- [Questions](https://github.com/banditheelerpdx/${repoName}#questions)
+- [Contact](https://github.com/banditheelerpdx/${repoName}#contact)
 
 ## Installation
       

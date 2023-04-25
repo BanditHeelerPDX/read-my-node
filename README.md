@@ -1,11 +1,11 @@
 
-# READ MY NODE
+# READ-MY-NODE
 
 ![MIT License License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
       
 ## Description
       
-A cli prompt created in node.js that takes user input to create a quality readme file for a github repository.  It should look like [this](https://github.com/banditheelerpdx/read-my-node/Screenshot.png) when you begin.
+Input your info at the prompts in the terminal and this wonder machine will output you one dedicated readme.md file for use with your github repository.
       
 ## Table of Contents
       
@@ -19,11 +19,11 @@ A cli prompt created in node.js that takes user input to create a quality readme
 
 ## Installation
       
-From the terminal, in the appropriate folder, type npm install and hit enter.  Then type node index and hit enter.  Follow the prompts to create your readme.
+From the appropriate directory, npm i and then node index and then follow the prompts.
       
 ## Usage
       
-For people of all creeds and colors to discover extra time to code by not wasting it with the semantics of readme file setup.
+For all who love to code to find more time to do so - not waste their lives setting up readme files.
       
 ## License
       
@@ -32,18 +32,18 @@ This project is licensed under the MIT License license. See the [LICENSE](https:
 ## Contributing
       
 The following individuals and/or organizations have contributed to the viability of this application:
-My mother and Chat-GPT helped write the regex for validating emails.
+My mom, the information superhighway and all my children.
 
 If you would like to contribute to the viability or sustainability of this application, read the following:
-Open an issue or drop me a line.
+Pull requests are cool.
       
 ## Tests
       
-You could test with Jest or you could test with something else.
+Test in production! On Black Friday!
       
 ## Questions
       
-Email or snail mail
+Snail mail.
       
 ## Contact
       
